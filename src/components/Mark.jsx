@@ -65,7 +65,7 @@ export const Mark = ({ book, mark }) => {
 
   useEffect(() => {
     if (urlRef.current)
-      urlRef.current.value = mark.url || 'https://indiflex.github.io/rpa_mip/';
+      urlRef.current.value = mark.url || 'https://kaijeong.github.io/React_project/';
   }, [isEditing]);
 
   return (
